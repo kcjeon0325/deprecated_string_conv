@@ -9,16 +9,16 @@ namespace Test2
 BEGIN_ENUM( Status )
 {
     ENUM_ELEMENT2( OK, 0 ),
-                   ENUM_ELEMENT( INVALID_ATTRIBUTE_ID ),
-                   ENUM_ELEMENT( INCORRECT_TYPE_ID_FOR_THIS_ATTRIBUTE_ID ),
-                   ENUM_ELEMENT( UNABLE_TO_SET_SETTING_AT_THIS_TIME ),
-                   ENUM_ELEMENT( UNABLE_TO_SET_SETTING_VALUE_OUT_OF_RANGE ),
-                   ENUM_ELEMENT( UNCONFIGURED_DEVICE ),
-                   ENUM_ELEMENT( SYNC_OK ),
-                   ENUM_ELEMENT( ASYNC ),
-                   ENUM_ELEMENT( UNABLE_TO_GET_PROPERTY_AT_THIS_TIME ),
-                   ENUM_ELEMENT( UNABLE_TO_GET_SETTING_AT_THIS_TIME ),
-                   ENUM_ELEMENT( NOT_SUPPORTED_BY_THIS_DEVICE_MODEL )
+                   ENUM_ELEMENT( I_A_I ),
+                   ENUM_ELEMENT( I_T_I_F_T_A_I ),
+                   ENUM_ELEMENT( U_T_S_S_A_T_T ),
+                   ENUM_ELEMENT( U_T_S_S_V_O_O_R ),
+                   ENUM_ELEMENT( U_D ),
+                   ENUM_ELEMENT( S_O ),
+                   ENUM_ELEMENT( AC ),
+                   ENUM_ELEMENT( U_T_G_P_A_T_T ),
+                   ENUM_ELEMENT( U_T_G_S_A_T_T ),
+                   ENUM_ELEMENT( N_S_B_T_D_M )
 }
 END_ENUM( Status )
 }
